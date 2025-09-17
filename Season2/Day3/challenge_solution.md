@@ -23,7 +23,9 @@ I have also created a GitLab account, created a new repo, also forked an existin
 ssh-keygen -t rsa -b 4096 -C "your.email@example.com"
 ssh-add ~/.ssh/id_rsa
 ```
-The above command cretes the pair of private and public in the `~/.ssh/id_rsa` directory and we copy the public key into the key generation
-section in GitLab
+
+The above command cretes the pair of private and public in the `~/.ssh` directory and we copy the public key into the key generation section in GitLab
+
+But merely typing these commands might not work as the terminal will 
 
 <img width="1258" height="509" alt="Image" src="https://github.com/user-attachments/assets/c348a9e4-4a91-472a-b42a-7fbad18c9325" />
